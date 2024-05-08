@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace std;//std::안쓰기위해 
 
 int main()
 {
