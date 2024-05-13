@@ -20,22 +20,25 @@ int main()//메인 함수
 
 	return 0;
 }
-*/
-int main()//입력한 숫자 사칙연산 
+*///자료형(Primitive Datatype)
+//int 정수형 
+//float 실수형 소수점 연산자  
+// + - / * % 연산자 (산술 Operator)
+//<< std::endl;줄바꿈 
+//입력한 숫자 사칙연산
+int main() 
 {
-	int Data = 0;//변수 선언하고 숫자 넣고 
+	int Data = 0;
 	int Data2 = 0;
 
 	std::cin >> Data;
 	std::cin >> Data2;
 
-	std::cout << Data + Data2 << std::endl;//<< std::endl;줄바꿈 
+	std::cout << Data + Data2 << std::endl;
 	std::cout << Data - Data2 << std::endl;
 	std::cout << Data * Data2 << std::endl;
 	std::cout << Data / Data2 << std::endl;
 	return 0;
 }
-//자료형(Primitive Datatype)
-//int 정수형 
-//float 실수형 소수점 연산자  
-// + - / * % 연산자 (산술 Operator)
+
+
